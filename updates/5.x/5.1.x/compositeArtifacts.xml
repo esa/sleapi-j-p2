@@ -2,10 +2,10 @@
 <?compositeArtifactRepository version='1.0.0'?>
 <repository name='SLE API Java p2 Composite Site 5.1.x' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1706885067473'/>
+    <property name='p2.timestamp' value='1706886331897'/>
     <property name='p2.atomic.composite.loading' value='false'/>
   </properties>
-  <children size='7'>
+  <children size='8'>
     <child location='../../../releases/5.1.4.${buildQualifier}'/>
     <child location='../../../releases/5.1.5.${buildQualifier}'/>
     <child location='../../../releases/5.1.6.202402021256'/>
@@ -13,5 +13,6 @@
     <child location='../../../releases/5.1.6.202402021434'/>
     <child location='../../../releases/5.1.6.202402021440'/>
     <child location='../../../releases/5.1.6.202402021443'/>
+    <child location='../../../releases/5.1.6.202402021504'/>
   </children>
 </repository>
