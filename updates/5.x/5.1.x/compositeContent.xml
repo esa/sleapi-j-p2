@@ -2,13 +2,14 @@
 <?compositeMetadataRepository version='1.0.0'?>
 <repository name='SLE API Java p2 Composite Site 5.1.x' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1706881503450'/>
+    <property name='p2.timestamp' value='1706884522533'/>
     <property name='p2.atomic.composite.loading' value='false'/>
   </properties>
-  <children size='4'>
+  <children size='5'>
     <child location='../../../releases/5.1.4.${buildQualifier}'/>
     <child location='../../../releases/5.1.5.${buildQualifier}'/>
     <child location='../../../releases/5.1.6.202402021256'/>
     <child location='../../../releases/${unqualifiedVersion}.${buildQualifier}'/>
+    <child location='../../../releases/5.1.6.202402021434'/>
   </children>
 </repository>
