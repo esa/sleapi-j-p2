@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeArtifactRepository version='1.0.0'?>
-<repository name='SLE API Java p2 Composite Site All Versions' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1'>
+<repository name='SLE API Java p2 Composite Site All Versions' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1701788446438'/>
+    <property name='p2.timestamp' value='1706880799524'/>
     <property name='p2.atomic.composite.loading' value='false'/>
   </properties>
-  <children size='1'>
+  <children size='2'>
     <child location='updates/5.x'/>
+    <child location='updates/${parsedVersion.majorVersion}.x'/>
   </children>
 </repository>
